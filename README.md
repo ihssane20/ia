@@ -146,7 +146,9 @@ La grille hexagonale est générée dynamiquement, permettant une personnalisati
 - abscience de stratégie
 
 ## Déroulement du jeu : 
-après le lancement du jeu, vous pouvez cliquer sur la grille et commencer a jouer :
+après le lancement du jeu, vous pouvez cliquer sur la grille et commencer a jouer : <br>
+![gopher1](https://github.com/ihssane20/ia/assets/166599798/24455efb-23cb-4cb5-9ea6-cfb185afabb0)  <br>
+vous continuer a jouer et pour chaque clique il va vous montrer les coups possible en vers que vous pouvez choisir : <br>
 
 
 
