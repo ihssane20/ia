@@ -78,3 +78,8 @@ après le l'exécution de la commande, le jeu commence et les jetons commence a 
 - #### Algorithme de décision simplifié : 
 L'algorithme Minimax n'est pas pleinement utilisé pour les deux joueurs ; les mouvements sont majoritairement aléatoires.
 - #### Abscence de stratégie pour que le joueur rouge gangne toujours
+### déroulement du jeu : 
+après l'exécution du jeu, le jetons rouge commence a se décplacer, après le bleu
+![DODO1](https://github.com/ihssane20/ia/assets/166599798/956792a8-f29e-403b-8b6c-57b6917fff14)
+lors du jeux il pourra s'ouvrir en fenetre comme si dessous, vous de devez cliquer sur Attendre et e jeu va continuer a jouer normalement. Après la fin du jeu le gagnant sera affiché sur le terminal et vous cliquer sur 'Forcer l'arret ' pour sortir du jeu 
+
