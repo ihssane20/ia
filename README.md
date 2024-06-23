@@ -1,5 +1,5 @@
+réalisé par Bennani Ihssane 
 # jeux DODO
-
 ### Instructions de lancement en ligne de commande
 #### 1. Pré-requis :
 Avoir Pygame installé. Vous pouvez l'installer via pip : 
@@ -151,6 +151,7 @@ après le lancement du jeu, vous pouvez cliquer sur la grille et commencer a jou
 vous continuer a jouer et pour chaque clique il va vous montrer les coups possible en vers que vous pouvez choisir : <br>
 ![gopher2](https://github.com/ihssane20/ia/assets/166599798/04010e91-91ba-4b55-83b3-54a23e90d8be) <br>
 Le terminal affiche le gagnant a la fin du jeu : <br>
+![gopher3](https://github.com/ihssane20/ia/assets/166599798/e7123a1f-3b0c-48bd-8eed-3714221c2a15)
 
 
 
