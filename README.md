@@ -80,6 +80,10 @@ L'algorithme Minimax n'est pas pleinement utilisé pour les deux joueurs ; les m
 - #### Abscence de stratégie pour que le joueur rouge gangne toujours
 ### déroulement du jeu : 
 après l'exécution du jeu, le jetons rouge commence a se décplacer, après le bleu
-![DODO1](https://github.com/ihssane20/ia/assets/166599798/956792a8-f29e-403b-8b6c-57b6917fff14)
-lors du jeux il pourra s'ouvrir en fenetre comme si dessous, vous de devez cliquer sur Attendre et e jeu va continuer a jouer normalement. Après la fin du jeu le gagnant sera affiché sur le terminal et vous cliquer sur 'Forcer l'arret ' pour sortir du jeu 
+![DODO1](https://github.com/ihssane20/ia/assets/166599798/956792a8-f29e-403b-8b6c-57b6917fff14) <br> 
+lors du jeux il pourra s'ouvrir en fenetre comme si dessous, vous de devez cliquer sur Attendre et e jeu va continuer a jouer normalement. Après la fin du jeu le gagnant sera affiché sur le terminal et vous cliquer sur 'Forcer l'arret ' pour sortir du jeu :
+![dodo2](https://github.com/ihssane20/ia/assets/166599798/e14f8f44-76df-4788-8149-46c7fb074333) <br>
+dans le terminal, il s'affiche le temps des coups et à la fin il affiche le gagnant : *
+
+
 
