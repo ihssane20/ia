@@ -2,14 +2,14 @@
 
 ### Instructions de lancement en ligne de commande
 #### 1. Pré-requis :
-Avoir Pygame installé. Vous pouvez l'installer via pip :
+Avoir Pygame installé. Vous pouvez l'installer via pip : 
 bash
   pip install pygame
 
 #### 2. Lancer le script
-=> Ouvrez une ligne de commande 
+- Ouvrez une ligne de commande 
 
-=> Exécutez le script avec la commande suivante :
+- Exécutez le script avec la commande suivante :
 bash
   python3 DODO.py 
 
@@ -83,7 +83,75 @@ après l'exécution du jeu, le jetons rouge commence a se décplacer, après le 
 ![DODO1](https://github.com/ihssane20/ia/assets/166599798/956792a8-f29e-403b-8b6c-57b6917fff14) <br> 
 lors du jeux il pourra s'ouvrir en fenetre comme si dessous, vous de devez cliquer sur Attendre et e jeu va continuer a jouer normalement. Après la fin du jeu le gagnant sera affiché sur le terminal et vous cliquer sur 'Forcer l'arret ' pour sortir du jeu :
 ![dodo2](https://github.com/ihssane20/ia/assets/166599798/e14f8f44-76df-4788-8149-46c7fb074333) <br>
-dans le terminal, il s'affiche le temps des coups et à la fin il affiche le gagnant : *
+dans le terminal, il s'affiche le temps des coups et à la fin il affiche le gagnant : <br>
+![dodo3](https://github.com/ihssane20/ia/assets/166599798/7cbc9115-24ef-41a3-8dd4-a2fd45f89007) <br> 
+# jeux GOPHER :
+Exécutez le script avec la commande suivante :
+bash
+  python3 GOPHER.py 
+### Méthodes/Algorithmes utilisés dans le projet
+#### 1. Initialisation et configuration de Pygame :
+ Initialise tous les modules Pygame : <br>
+    
+     pygame.init() 
+Crée une fenêtre de jeu avec les dimensions spécifiées :  <br>
+
+    pygame.display.set_mode((screen_width, screen_height))
+Définit le titre de la fenêtre de jeu :  <br>
+
+    pygame.display.set_caption('Gopher Game')
+
+#### 2. Calcul des positions des hexagones
+Calcule les sommets d'un hexagone à partir de son centre et de sa taille :
+
+    hex_corner(center, size, i): 
+ Crée une grille hexagonale basée sur les coordonnées axiales:
+ 
+    create_grid(grid_radius, hex_size)
+#### 3. Affichage des hexagones et des pierres
+Dessine un hexagone à l'emplacement spécifié :
+
+     draw_hexagon(center, size, color=BLACK)
+Dessine une pierre (cercle) sur l'hexagone :
+
+    pygame.draw.circle(screen, RED/BLUE, center, radius)
+#### 4. Gestion des interactions de l'utilisateur
+Trouve l'hexagone le plus proche de la position cliquée par l'utilisateur :
+
+    find_closest_hex(pos)
+ Retourne les coordonnées des hexagones adjacents :
+ 
+    get_adjacent_coords(coord)
+Retourne les coups valides pour le joueur actuel :
+
+    get_valid_moves(player)
+ Vérifie si le jeu est terminé en analysant les connexions des hexagones :
+ 
+    check_game_end():
+#### 5. Boucle de jeu principale
+- Écoute les événements tels que pygame.QUIT et pygame.MOUSEBUTTONDOWN. <br>
+- Met à jour l'état du jeu en fonction des clics de l'utilisateur. <br>
+- Affiche la grille et les pierres à chaque itération de la boucle. <br>
+
+### Points forts :
+#### Interface graphique :
+L'utilisation de Pygame pour dessiner les hexagones et les pierres offre une interface visuelle attrayante.
+#### Validation des mouvements : 
+Le projet implémente une logique pour valider les mouvements en fonction des connexions adjacentes.
+#### Flexibilité de la grille :
+La grille hexagonale est générée dynamiquement, permettant une personnalisation facile de la taille de la grille.
+
+### Points faible :
+- on peux jouer manuellement
+- abscience de stratégie
+
+## Déroulement du jeu : 
+après le lancement du jeu, vous pouvez cliquer sur la grille et commencer a jouer :
+
+
+
+
+
 
 
 
