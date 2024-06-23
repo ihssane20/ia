@@ -149,6 +149,10 @@ La grille hexagonale est générée dynamiquement, permettant une personnalisati
 après le lancement du jeu, vous pouvez cliquer sur la grille et commencer a jouer : <br>
 ![gopher1](https://github.com/ihssane20/ia/assets/166599798/24455efb-23cb-4cb5-9ea6-cfb185afabb0)  <br>
 vous continuer a jouer et pour chaque clique il va vous montrer les coups possible en vers que vous pouvez choisir : <br>
+![gopher2](https://github.com/ihssane20/ia/assets/166599798/04010e91-91ba-4b55-83b3-54a23e90d8be) <br>
+Le terminal affiche le gagnant a la fin du jeu : <br>
+
+
 
 
 
